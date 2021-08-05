@@ -1,0 +1,23 @@
+{
+  "name": "lit-basics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "module": "my-element.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "run": "web-dev-server -d --config web-dev-server.config.js --content-base dev/"
+  },
+  "dependencies": {
+    "@web/dev-server": "^0.1.20",
+    "@web/dev-server-legacy": "^0.1.7",
+    "@web/dev-server-rollup": "^0.3.8",
+    "@webcomponents/webcomponentsjs": "^2.6.0",
+    "http-server": "^0.12.3",
+    "lit": "^2.0.0-rc.2",
+    "tsc": "^2.0.3",
+    "typescript": "^4.3.5"
+  }
+}
